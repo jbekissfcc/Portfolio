@@ -1,6 +1,6 @@
-import emailIcon from '../assets/email_icon.png';
-import githubIcon from '../assets/github_icon.png';
-import linkedinIcon from '../assets/linkedin_icon.png';
+import emailIcon from 'url:../assets/email_icon.png';
+import githubIcon from 'url:../assets/github_icon.png';
+import linkedinIcon from 'url:../assets/linkedin_icon.png';
 
 const SOCIAL_PROFILES = [
     {

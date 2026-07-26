@@ -22,7 +22,7 @@ class SocialProfiles extends Component {
     render() {
         return (
             <div>
-                <h3>Contact Me</h3>
+                <h3>Connect With Me</h3>
                 <div>
                     {
                         SOCIAL_PROFILES.map(SOCIAL_PROFILE => {
