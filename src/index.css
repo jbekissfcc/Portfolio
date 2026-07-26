@@ -1,0 +1,19 @@
+body {
+    text-align: center !important;
+    font-size: 20px;
+    padding: 2.5%;
+}
+
+
+.montserrat-body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.profile {
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+}

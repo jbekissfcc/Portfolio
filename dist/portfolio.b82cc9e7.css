@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  padding: 2.5%;
+  font-size: 20px;
+}
+
+.montserrat-body {
+  font-optical-sizing: auto;
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.profile {
+  border-radius: 100px;
+  width: 200px;
+  height: auto;
+}
+/*# sourceMappingURL=portfolio.b82cc9e7.css.map */
