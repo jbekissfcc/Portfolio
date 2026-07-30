@@ -14,6 +14,7 @@
     "start": "npm run build && live-server dist"
   },
   "devDependencies": {
+    "parcel-reporter-static-files-copy": "^1.5.3",
     "process": "^0.11.10"
   }
 }
