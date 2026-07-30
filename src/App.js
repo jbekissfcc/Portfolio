@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Projects from './Projects';
 import SocialProfiles from './SocialProfiles';
 import profile from 'url:./assets/jbekis_profile_headshot.jpeg';
+import Title from './Title';
 
 class App extends Component {
 
@@ -18,7 +19,8 @@ class App extends Component {
         {/* class is already a reserved keyword in javascript, so, use className to assign classes to html elements */}
         <img src={profile} alt='profile' className='profile' />
         <h1>Hello!</h1>
-        <p>My name is James Bekis. I'm a software engineer.</p>
+        <p>My name is James Bekis.</p>
+        <Title />
         <p>I'm always looking forward to working on meaningful projects.</p>
         {
           this.state.displayBio ? ( 
