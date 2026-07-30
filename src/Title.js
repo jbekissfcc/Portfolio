@@ -11,13 +11,15 @@ class Title extends Component {
     state = { titleIndex: 0 };
 
     componentDidMount() {
-        console.log('Title component has mounted');
-
         this.animateTitles();
     }
 
+    componentWillUnmount() {
+        clearInterval(this.titleInterval);
+    }
+
     animateTitles = () => {
-        setInterval(() => {
+        this.titleInterval = setInterval(() => {
             const titleIndex = (this.state.titleIndex + 1) % TITLES.length;
 
             this.setState({ titleIndex });
