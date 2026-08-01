@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Projects from './Projects';
 import SocialProfiles from './SocialProfiles';
 import Title from './Title';
+import Header from './Header';
 import profile from 'url:../assets/jbekis_profile_headshot.jpeg';
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
   render () {
     return (
       <div>
+        <Header />
         {/* class is already a reserved keyword in javascript, so, use className to assign classes to html elements */}
         <img src={profile} alt='profile' className='profile' />
         <h1>Hello!</h1>
